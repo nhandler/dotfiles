@@ -24,3 +24,6 @@
   autosquash = true
 [web]
   browser = open
+[user]
+	name = Nathan Handler
+	email = nhandler@enova.com
