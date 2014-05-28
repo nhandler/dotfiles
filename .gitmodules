@@ -4,3 +4,6 @@
 [submodule "janus/vim-css3-syntax"]
 	path = janus/vim-css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax.git
+[submodule "janus/vim-surround"]
+	path = janus/vim-surround
+	url = https://github.com/tpope/vim-surround.git

@@ -5,22 +5,25 @@
   lc = log @{1}.. --stat --no-merges
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar)%Creset' --abbrev-commit --date=relative
   ff = merge --ff-only @{u}
+  l = log --pretty=oneline --abbrev-commit
+  ls = log --stat
+  lgg = log --pretty=oneline --abbrev-commit --graph
 [color]
   diff = auto
   status = auto
   branch = auto
-	ui = true
+	ui = auto
 [core]
   excludesfile = ~/.gitignore
   quotepath = false
-  whitespace = -blank-at-eol
+  whitespace = -blank-at-eol,trailing-space,space-before-tab
 [mirror]
   summary = true
 [branch]
   autosetupmerge = true
   autosetuprebase = always
 [push]
-  default = tracking
+  default = current
 [rebase]
   autosquash = true
 [web]

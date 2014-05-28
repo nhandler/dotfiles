@@ -17,7 +17,7 @@ Run `rake uninstall` inside the repo.
 This will remove all of the symlinks and restore any backed up files. 
 
 ### Vim plugins
-To add more vim plugins, do a `git add submodule https://github.com/...` in the `/janus` folder, and they will automatically load the next time you run vim.
+To add more vim plugins, do a `git submodule add https://github.com/...` in the `/janus` folder, and they will automatically load the next time you run vim.
 
 ### Multiple hosts
 If you install these dotfiles on multiple hosts, you can put specific
