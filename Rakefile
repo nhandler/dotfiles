@@ -7,7 +7,7 @@ task :brew do
     `ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"`
   end
   
-  `brew install ack git libtool imagemagick mysql postgres phantomjs pngcrush rbenv rbenv-gemset ruby-build tmux vim tree ssh-copy-id tig lynx`
+  `brew install ack git libtool imagemagick mysql postgres phantomjs pngcrush rbenv rbenv-gemset ruby-build tmux vim tree ssh-copy-id tig lynx dash`
 end
 
 task :install do
