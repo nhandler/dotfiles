@@ -7,3 +7,6 @@
 [submodule "janus/vim-surround"]
 	path = janus/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "janus/vim-matchit"]
+	path = janus/vim-matchit
+	url = https://github.com/edsono/vim-matchit
