@@ -10,3 +10,6 @@
 [submodule "janus/vim-matchit"]
 	path = janus/vim-matchit
 	url = https://github.com/edsono/vim-matchit
+[submodule "janus/Toggle"]
+	path = janus/Toggle
+	url = https://github.com/vim-scripts/Toggle
